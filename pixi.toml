@@ -1,0 +1,14 @@
+[project]
+authors = ["Ryan Oates <ryanfullstack@icloud.com>"]
+channels = ["https://conda.modular.com/max-nightly", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community", "conda-forge"]
+description = "Add a short description here"
+name = "mcp-cursor-extension"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pnpm = ">=10.2.0,<11"
+turborepo = ">=2.4.0,<3"
+npx = ">=0.1.1,<0.2"
